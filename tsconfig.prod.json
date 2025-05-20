@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // You can add/override any production-specific flags here.
+    // For example, you might want to disable source maps in production:
+    // "sourceMap": false
+  }
+}
