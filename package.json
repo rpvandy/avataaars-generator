@@ -59,5 +59,8 @@
     "trailingComma": "es5",
     "bracketSpacing": true,
     "jsxBracketSameLine": true
-  }
+  },
+"overrides": {
+  "history": "4.10.1"
+}  
 }
