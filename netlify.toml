@@ -1,0 +1,12 @@
+[build]
+  # Tells Netlify which command to run
+  # (The "build" script in package.json, i.e. react-scripts-ts build)
+  command = "npm run build"
+
+  # Tells Netlify which folder to publish after building.
+  # Create React App (and react-scripts-ts) output goes into "build/"
+  publish = "build"
+
+[build.environment]
+  # Forces Netlify to use Node.js v16 (which includes an npm version that respects "overrides")
+  NODE_VERSION = "16"
